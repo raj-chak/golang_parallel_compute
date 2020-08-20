@@ -1,13 +1,11 @@
 You can download, build, and run the programs with the following commands:
 
-	$ export GOPATH=$HOME/gobook            # choose workspace directory
-	$ go get gopl.io/ch1/helloworld         # fetch, build, install
-	$ $GOPATH/bin/helloworld                # run
-	Hello, 世界
+	$ export GOPATH=$HOME/yourdir # choose workspace directory
+	// change to above directory
+	$ go get github.com/raj-chak/golang_parallel_compute        # fetch
+	$ go build github.com/raj-chak/golang_parallel_compute/parallel  # build
+	$ ./parallel
+	3.141592654423124
 
-Many of the programs contain comments of the form `//!+` and `//!-`.
-These comments bracket the parts of the programs that are excerpted in the
-book; you can safely ignore them.  In a few cases, programs
-have been reformatted in an unnatural way so that they can be presented
-in stages in the book.
+
 
